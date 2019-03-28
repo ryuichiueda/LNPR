@@ -28,7 +28,7 @@ class DpPolicyAgent(PuddleIgnoreAgent):  ###dppolicyagent
         
     def init_policy(self, index_nums):
         tmp = np.zeros(np.r_[index_nums,2])
-        for line in open("data/dp_policy.txt", "r"):
+        for line in open("../data/dp_policy.txt", "r"):
             d = line.split()
             tmp[int(d[0]), int(d[1]), int(d[2])] = [float(d[3]), float(d[4])]
             

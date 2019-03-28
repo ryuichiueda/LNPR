@@ -5,7 +5,7 @@
 
 
 import sys
-sys.path.append('./scripts/')
+sys.path.append('../scripts/')
 from dp_policy_agent import *
 import random, copy
 
@@ -53,14 +53,13 @@ class SarsaAgent(DpPolicyAgent):  #名前をSarsaAgentに ###sarsa1
 
     def set_action_value_function(self):
         ss = {}
-        for line in open("data/puddle_ignore_values.txt", "r"):
+        for line in open("../data/puddle_ignore_values.txt", "r"):
             d = line.split()
             index, value = (int(d[0]), int(d[1]), int(d[2])), float(d[3])
             ss[index] = StateInfo(len(self.actions))
             
             for i, a in enumerate(self.actions):
                 ss[index].q[i] = value if tuple(self.policy_data[index]) == a else value - 0.1
-                ss[index].q[i] *= 10 #大きくしておく
                 
         return ss
     
