@@ -30,13 +30,19 @@ completed codes of the lecture note of probabilistic robotics
 * [dynamic_programming.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/mdp/dynamic_programming.ipynb): value iteration
 * [policy_agent.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/mdp/policy_agent.ipynb): agents with the result of value iteration
 
+### in reinforcement_learning directory
+
+* [q.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/reinforcement_learning/q.ipynb): Q-learning
+* [sarsa.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/reinforcement_learning/sarsa.ipynb): simple sarsa
+* [nstep_sarsa.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/reinforcement_learning/nstep_sarsa.ipynb): n-step sarsa
+* [sarsa_lambda.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/reinforcement_learning/sarsa_lambda.ipynb): sarsa($\lambda$)
+
 ### in pomdp directory
 
 * [qmdp.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/qmdp.ipynb): Q-MDP value method
 * [pfc.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/pfc.ipynb): weighted Q-MDP value method (probabilistic flow control)
 * [amdp.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/amdp.ipynb): value iteration with an augumented MDP (an example of corstal navigation by N. Roy in another environment and setting)
 * [amdp_policy_agent.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/amdp_policy_agent.ipynb): agents with the result of amdp
-
 
 ### in inference directory
 
