@@ -23,3 +23,8 @@ completed codes of the lecture note of probabilistic robotics
 * graphbasedslam.ipynb: graph-based SLAM
 * misc
     * graphbasedslam_logger.ipynb: logger for graph-based SLAM
+
+### in inference directory
+
+* [gauss_gamma.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/inference/gauss_gamma.ipynb): Bayes inference with Gauss-gamma distribution
+* [variational_inference.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/inference/variational_inference.ipynb): variational inference
