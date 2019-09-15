@@ -1,5 +1,5 @@
 # LNPR codes
-completed codes of the lecture note of probabilistic robotics
+completed codes of the lecture note of probabilistic robotics ("詳解確率ロボティクス" in Japanese)
 
 ## contents
 
