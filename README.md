@@ -24,6 +24,20 @@ completed codes of the lecture note of probabilistic robotics
 * misc
     * [graphbasedslam_logger.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/slam/graphbasedslam_logger.ipynb): logger for graph-based SLAM
 
+
+### in mdp directory
+
+* [dynamic_programming.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/mdp/dynamic_programming.ipynb): value iteration
+* [policy_agent.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/mdp/policy_agent.ipynb): agents with the result of value iteration
+
+### in pomdp directory
+
+* [qmdp.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/qmdp.ipynb): Q-MDP value method
+* [pfc.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/pfc.ipynb): weighted Q-MDP value method (probabilistic flow control)
+* [amdp.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/amdp.ipynb): value iteration with an augumented MDP (an example of corstal navigation by N. Roy in another environment and setting)
+* [amdp_policy_agent.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/pomdp/amdp_policy_agent.ipynb): agents with the result of amdp
+
+
 ### in inference directory
 
 * [gauss_gamma.ipynb](https://github.com/ryuichiueda/LNPR/blob/master/inference/gauss_gamma.ipynb): Bayes inference with Gauss-gamma distribution
