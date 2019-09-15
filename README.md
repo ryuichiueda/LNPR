@@ -19,7 +19,7 @@ completed codes of the lecture note of probabilistic robotics
 ### in slam directory
 
 * fastslam1.0.ipynb: FastSLAM 1.0
-* fastslam2.0.ipynb: FastSLAM 1.0
+* fastslam2.0.ipynb: FastSLAM 2.0
 * graphbasedslam.ipynb: graph-based SLAM
 * misc
     * graphbasedslam_logger.ipynb: logger for graph-based SLAM
